@@ -1,8 +1,13 @@
 #pragma once
 #include <string>
+#include <iostream>
+
+using std::cout;
+using std::cin;
+using std::string;
 
 namespace Core {
 
-	void PrintHelloWorld(std::string args);
+	void PrintHelloWorld(string args);
 
 }

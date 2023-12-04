@@ -4,11 +4,9 @@
 
 namespace Core {
 
-	void PrintHelloWorld(std::string args)
+	void PrintHelloWorld(string args)
 	{
-		std::cout << "Hello World!\n";
-		std::cout << "This is " << args << std::endl;
-		std::cin.get();
+		cout << "Advent of Code " << args << std::endl;
 	}
 
 }
